@@ -1,0 +1,33 @@
+{
+  "name": "to-decimal-arbitrary-precision",
+  "version": "0.0.0",
+  "description": "Ensures a number is represented as a decimal",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiercejudo/to-decimal"
+  },
+  "keywords": [
+    "conversion",
+    "units"
+  ],
+  "author": "Javier Cejudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiercejudo/to-decimal/issues"
+  },
+  "homepage": "https://github.com/javiercejudo/to-decimal",
+  "devDependencies": {
+    "floating-adapter": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-mocha": "^2.1.3",
+    "linear-arbitrary-precision": "^3.1.0",
+    "rimraf": "^2.4.3",
+    "should": "^7.1.1"
+  }
+}
