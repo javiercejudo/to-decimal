@@ -1,6 +1,6 @@
 {
   "name": "to-decimal-arbitrary-precision",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ensures a number is represented as a decimal",
   "main": "src/index.js",
   "scripts": {
