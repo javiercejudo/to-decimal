@@ -8,13 +8,13 @@ Ensures a number is represented as a decimal
 
 ## Install
 
-    npm i to-decimal
+    npm i to-decimal-arbitrary-precisio
 
 ## Usage
 
 ```js
 var Decimal = require('linear-arbitrary-precision')(require('floating-adapter'));
-var toDecimal = require('to-decimal')(Decimal);
+var toDecimal = require('to-decimal-arbitrary-precisio')(Decimal);
 
 toDecimal(32); // => new Decimal('32')
 ```
